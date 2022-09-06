@@ -76,6 +76,12 @@
       "relation": "oneToMany",
       "target": "api::contact.contact",
       "mappedBy": "author"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::profile.profile",
+      "inversedBy": "user"
     }
   }
 }
