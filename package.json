@@ -20,6 +20,7 @@
     "@strapi/strapi": "4.7.0",
     "axios": "^0.27.2",
     "better-sqlite3": "7.4.6",
+    "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0"
   },
   "author": {
